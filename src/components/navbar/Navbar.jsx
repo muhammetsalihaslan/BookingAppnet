@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isHovering, setIsHovering] = useState(false);
   const [isHoveringL, setIsHoveringL] = useState(false);
   const [isHoveringQ, setIsHoveringQ] = useState(false);
-  const [open, setOpen] = useState(false);
+
   const handleMouseOver = () => {
     setIsHovering(true);
   };

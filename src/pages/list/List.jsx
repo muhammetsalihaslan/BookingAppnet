@@ -24,6 +24,8 @@ const List = () => {
     });
   };
 
+  console.log(setDestination);
+
   const setOpl = () => {
     setOpenOptions(!openOptions);
     setOpenDate(false);
